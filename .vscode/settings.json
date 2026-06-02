@@ -1,0 +1,6 @@
+{
+    "java.project.sourcePaths": [
+        "cliente/src/main/java",
+        "servidor/src/main/java"
+    ]
+}

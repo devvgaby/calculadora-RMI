@@ -1,0 +1,12 @@
+services:
+  servidor:
+    build: ./servidor
+    container_name: servidor-rmi
+    ports:
+      - "1099:1099"
+
+  cliente:
+    build: ./cliente
+    container_name: cliente-rmi
+    depends_on:
+      - servidor
