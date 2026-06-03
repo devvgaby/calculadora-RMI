@@ -2,9 +2,7 @@ package model;
 
 import java.io.Serializable;
 
-public class Operacao implements Serializable {
-
-    private static final long serialVersionUID = 1L;
+public class Operacao implements Serializable { // Serializable permite a transferência de objetos pela rede
 
     private double numero1;
     private double numero2;

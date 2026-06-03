@@ -1,0 +1,4 @@
+service\Calculadora.class
+server\Servidor.class
+service\CalculadoraImpl.class
+model\Operacao.class

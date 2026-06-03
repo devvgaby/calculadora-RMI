@@ -11,9 +11,9 @@ public class Servidor {
 
         try {
 
-            Registry registry = LocateRegistry.createRegistry(1099);
+            Registry registry = LocateRegistry.createRegistry(1099); // Cria um registro RMI na porta 1099
 
-            registry.rebind("Calculadora", new CalculadoraImpl());
+            registry.rebind("Calculadora", new CalculadoraImpl()); // Cria um objeto remoto Calculadora e chama as implementações dos métodos definidos da CalculadoraImpl
 
             System.out.println("Servidor RMI iniciado na porta 1099");
 

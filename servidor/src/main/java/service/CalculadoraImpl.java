@@ -5,9 +5,7 @@ import java.rmi.server.UnicastRemoteObject;
 
 import model.Operacao;
 
-public class CalculadoraImpl extends UnicastRemoteObject implements Calculadora {
-
-    private static final long serialVersionUID = 1L;
+public class CalculadoraImpl extends UnicastRemoteObject implements Calculadora { // UnicastRemoteObject é uma classe que facilita a criação de objetos remotos
 
     public CalculadoraImpl() throws RemoteException {
         super();
